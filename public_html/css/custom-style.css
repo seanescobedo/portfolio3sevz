@@ -1,0 +1,314 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        div{
+    border-style: double;
+    border-width: 10px;
+    padding: 30px;
+    border-color: whitesmoke;
+}
+/*my boarder color*/
+h1{
+    color: white;
+}
+/*color i had for all my h1s*/
+h2{
+    color: deeppink;
+}
+/*color i had for all my h2s*/
+.container{
+    border-color: deeppink;
+}
+/*other boarder color for the container*/
+.row{
+    border-color: red;
+}
+/* boarder color for all rows on all pages*/
+.list-group-item{
+    border: 0;
+}
+#projects{
+/*    border-color deeppink*/
+    background-image: url(http://b68389.medialib.glogster.com/media/8ea5a3ea68d4305ad02c946510f0674e579eeacbcd5665e33632c33205ec0137/moving-backgrounds-1.gif);
+    background-size: cover;
+}
+/*Alex did that last comment lol*/
+/*made a gif my background for all my pages*/
+img {
+    width: 400px;
+    height: auto;
+}
+/*made an image this size*/
+.uppercase {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+/*forgot why i did this tbh*/
+#tech{
+   background-image: url(http://fc08.deviantart.net/fs71/f/2014/025/f/a/simple_animated_flashing_background_gif_by_jssanda-d58kspb.gif);
+    background-size: cover;
+}
+/*technology background*/
+#index{
+    background-image: url(http://i436.photobucket.com/albums/qq86/DaT_69eR/DEZ%20PiiX/scattered-flashing-dots-1266.gif);
+    background-size: cover;
+}
+/*index background*/
+p{
+    color: white;
+}
+/*made every p white at first*/
+#pic{
+    height: 260px;
+    width: auto;
+}
+/*started to use a lot of ids from here on*/
+#hh{
+    color: orangered;
+}
+#blueh{
+    color: #a6e1ec;
+}
+#yasss{
+    color: yellow;
+}
+#cs{
+    color: skyblue;
+}
+#boot{
+    color: magenta;
+}
+#pcss{
+    color: skyblue;
+}
+#phtml{
+    color: orangered;
+}
+#pboot{
+    color: magenta;
+}
+#h2i{
+    color:  #ff0;
+}
+#pi{
+    color: springgreen;
+}
+#h2ii{
+    color: hotpink;
+}
+#iblue{
+    color: #66afe9;
+}
+#p2i{
+    color: hotpink;
+}
+#name{
+    color: aqua;
+}
+#insta{
+    color: springgreen;
+}
+/*see what i mean a lot*/
+#diff{
+    border-color: greenyellow;
+}
+#bk{
+    border-color: hotpink;
+}
+#lk{
+    border-color: #66afe9;
+}
+#hu7{
+    color: aquamarine;
+}
+#hg6{
+    color: chartreuse;
+}
+#ok9{
+    color: darkorange;
+}
+#sd4{
+    border-color: yellow;
+}
+#mby5{
+    border-color: deepskyblue;
+}
+#hjk8{
+    color: red;
+}
+#lol8{
+    color: violet;
+}
+#gu7{
+    color: deepskyblue;
+}
+#er56{
+    border-color: blue;
+}
+#et9o{
+    border-color: blue;
+}
+#vu50{
+    border-color: violet;
+}
+#was{
+    border-color: violet;
+}
+#asd4{
+    color: blue;
+}
+#bloo{
+    color: yellowgreen;
+}
+#bick{
+    border-color: green;
+}
+#yoi{
+    border-color: greenyellow;
+}
+#ijk{
+    border-color: greenyellow;
+}
+#omfg{
+    color: yellowgreen;
+}
+#tu21{
+    color: crimson;
+}
+#fuy{
+    color: #a6e1ec;
+}
+#kol{
+    border-bottom-color: aqua;
+    border-left-color: orange;
+    border-top-color: hotpink;
+    border-right-color: lightgreen;
+}
+#uom{
+    border-color: purple;
+}
+#java{
+    color: red;
+}
+#jav{
+    color: red;
+}
+#melj{
+    color: lawngreen;
+}
+#meljs{
+    color: lawngreen;
+}
+#mjp{
+    height: 370px;
+}
+#vid{
+    width: 300px;
+    height: 150px;
+}
+/*color for text*/
+p{
+    color:deepskyblue;
+}
+//another color command for a border\\
+#bord{
+    border-bottom-color: whitesmoke;
+    border-left-color: deepskyblue;
+    border-top-color: whitesmoke;
+    border-right-color: deepskyblue;
+}
+h2{
+    color: deeppink;
+}
+/*flippers container*/
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+/* to make it have no border*/
+.flip-container, .front, .back {
+ border-style: none;	
+}
+
+/*the command that makes your picture or text flip around*/
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+       border-style: none;
+	position: relative;
+}
+
+/*making the back not show up on the front and viceversa for front*/
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front side of the flipper */
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+        padding: 0px;
+}
+
+/* back side of the flipper*/
+.back {
+	transform: rotateY(180deg);
+        width: 190px;
+}
+/*my custom cursor*/
+html {
+cursor: url('../devil.ico'), default;
+}
+/*picture agjustment id tag*/
+#Q {
+   height: 120px;
+   width: auto;
+}
+/*you can make different size collims*/
+.col-xs-3{
+    border-bottom-color: deeppink;
+    border-left-color: whitesmoke;
+    border-top-color: deeppink;
+    border-right-color: whitesmoke;
+    
+}
+h3{
+    color: deepskyblue;
+}
+#hoo {
+   height: 220px;
+   width: auto;
+   padding-left: 360px;
+} 
+/*lets the user drag a certain item around the whole html*/
+#draggable {
+width: 0px; height: 0px; padding: 0px; 
+}
+/*id to change the colors of the border*/
+#rell{
+    border-left-color: deepskyblue;
+    border-bottom-color: whitesmoke;
+    border-right-color: deepskyblue;
+    border-top-color: whitesmoke;
+}
+/*this is how the background video plays*/
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) repeat;
+background-size: cover;
+}
+
+#animateList li a {
+    cursor: pointer;
+    transition: padding-left 250ms ease-out;
+    /* trans pattern:  property duration timingMethod delay */
+}
+
+#animateList li a:hover {
+    padding-left: 20px;
+}
